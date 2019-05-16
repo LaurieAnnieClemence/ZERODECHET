@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <h1>Zéro déchet</h1>
+
+    <% if flash[:notice] %>
+      <%= flash[:notice] %>
+    <% end %>
+
+    <%= render 'layouts/navigation' %>
+
     <%= yield %>
   </body>
 </html>
