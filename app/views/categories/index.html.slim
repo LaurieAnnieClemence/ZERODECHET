@@ -1,3 +1,5 @@
 - @categories.each do |category|
   h2= category.name
+  = render partial: 'wastes/index', locals: {category: category}
+  = render partial: 'wastes/new', locals: {category: category}
 

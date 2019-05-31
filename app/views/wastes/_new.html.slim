@@ -1,0 +1,7 @@
+= form_for Waste.new do |f|
+  p
+    = f.text_field :name, placeholder: "nouveau déchet"
+
+    = f.hidden_field :category_id, value: category.id
+
+    = f.submit "ajoutée"

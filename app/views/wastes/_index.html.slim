@@ -1,0 +1,6 @@
+- Waste.where(category_id: category.id).each do |waste|
+  = waste.name
+  = " "
+  = link_to "show", waste_path(waste.id)
+  br
+
