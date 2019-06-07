@@ -1,0 +1,7 @@
+= form_for Solution.new do |f|
+	p
+    = f.text_field :content, placeholder: "nouvelle solution"
+
+    = f.hidden_field :waste_id, value: waste.id
+
+    = f.submit "ajoutée"

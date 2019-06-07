@@ -1,6 +1,11 @@
 - Waste.where(category_id: category.id).each do |waste|
-  = waste.name
-  = " "
-  = link_to "show", waste_path(waste.id)
+  tr
+    td= waste.name
+
+    td
+      = render partial: 'solutions/index', locals: {waste: waste}
+      li= render partial: 'solutions/new', locals: {waste: waste}
+
+    th= link_to "donner mon avis", waste_path(waste.id)
   br
 

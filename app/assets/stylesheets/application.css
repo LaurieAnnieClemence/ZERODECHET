@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-style: italic;
+}
+
+h1, .navigation {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  empty-cells: show;
+  border-collapse: collapse;
+}
+
+td, th {
+  width: 33%;
+  border: solid;
+  padding: 1%;
+}
+
