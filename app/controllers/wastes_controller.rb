@@ -15,7 +15,7 @@ class WastesController < ApplicationController
     @waste = Waste.new(waste_params)
 
     if @waste.save
-      redirect_back fallback_location: root_path, notice: "déchet ajoutée, merci à vous!"
+      redirect_back fallback_location: root_path, notice: "déchet ajouté, merci à vous!"
     else
       flash[:alert] = @waste.errors_to_sentence
       redirect_back fallback_location: root_path

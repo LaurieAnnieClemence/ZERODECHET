@@ -1,4 +1,16 @@
 p
   h2= @waste.category.name
   br
-  = @waste.name
+
+  table
+    tr
+      td= @waste.name
+
+      td
+        = render partial: 'solutions/index', locals: {waste: @waste}
+        li= render partial: 'solutions/new', locals: {waste: @waste}
+
+    br
+
+  = render partial: 'comments/index', locals: {waste: @waste}
+  = render partial: 'comments/new', locals: {waste: @waste}

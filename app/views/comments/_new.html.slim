@@ -1,0 +1,9 @@
+= form_for Comment.new do |f|
+  p
+    strong= "Donner mon avis: "
+    = f.text_field :content, placeholder: "nouveau avis"
+    = f.text_field :author, placeholder: "auteur"
+
+    = f.hidden_field :waste_id, value: waste.id
+
+    = f.submit "ajouté"

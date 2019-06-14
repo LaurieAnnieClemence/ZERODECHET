@@ -1,0 +1,8 @@
+br
+br
+- Comment.where(waste_id: waste.id).each do |comment|
+  = "-" + comment.content
+  br
+  = comment.author
+  br
+  br
