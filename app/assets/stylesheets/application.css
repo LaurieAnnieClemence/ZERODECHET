@@ -22,6 +22,13 @@ h1, .subtitle, .navigation {
   text-align: center;
 }
 
+.message {
+  text-align: center;
+  border: 1px solid;
+  padding: 2%;
+  margin: 3%;
+}
+
 table {
   width: 100%;
   empty-cells: show;

@@ -1,0 +1,6 @@
+= form_for Message.new do |f|
+  .navigation
+    = f.text_field :content, placeholder: "nouveau avis général"
+    = f.text_field :author, placeholder: "auteur"
+
+    = f.submit "ajouté"

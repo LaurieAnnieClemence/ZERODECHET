@@ -1,0 +1,11 @@
+br
+= render partial: 'messages/new'
+br
+- @messages.each do |message|
+  .message
+    = "-" + message.content
+    br
+    = message.author
+    br
+    br
+

@@ -20,7 +20,7 @@
 - [x] créer une page par déchet pour donner son avis
 - [x] créer une page pour y mettre des liens vers d'autres sites sur le même thème
 - [x] rendre les déchets et les solutions uniques [📝](https://stackoverflow.com/questions/14622143/adding-unique-true-for-add-column-and-add-index-in-active-record)
-- [ ] ajouter une page contact
+- [x] ajouter une page contact
 - [ ] ajouter au serveur
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
