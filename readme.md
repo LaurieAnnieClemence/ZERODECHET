@@ -18,7 +18,9 @@
 - [x] migrer la base de données sur heroku (`heroku run rails db:migrate`)
 - [x] créer la page d'accueil
 - [x] créer une page par déchet pour donner son avis
-- [ ] créer une page pour y mettre des liens vers d'autres sites sur le même thème
+- [x] créer une page pour y mettre des liens vers d'autres sites sur le même thème
+- [ ] ajouter une page contact
+- [ ] ajouter au serveur
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 
