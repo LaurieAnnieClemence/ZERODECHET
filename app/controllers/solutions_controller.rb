@@ -5,7 +5,7 @@ class SolutionsController < ApplicationController
 	  if @solution.save
 	    redirect_back fallback_location: root_path, notice: "solution ajoutée, merci à vous!"
 	  else
-	    flash[:alert] = @solution.errors_to_sentence
+	    #flash[:alert] = @solution.errors_to_sentence
       redirect_back fallback_location: root_path
     end
   end

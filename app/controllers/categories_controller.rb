@@ -12,7 +12,7 @@ class CategoriesController < ApplicationController
     if @category.save
       redirect_back fallback_location: root_path, notice: "categorie ajoutée, merci à vous!"
     else
-      flash[:alert] = @category.errors_to_sentence
+      #flash[:alert] = @category.errors_to_sentence
       redirect_back fallback_location: root_path
     end
   end
