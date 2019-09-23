@@ -16,6 +16,7 @@
 
 body {
   font-style: italic;
+  margin-bottom: 20%;
 }
 
 h1, .subtitle, .navigation {
@@ -39,5 +40,6 @@ td, th {
   width: 33%;
   border: solid;
   padding: 1%;
+  min-width: 170px;
 }
 
