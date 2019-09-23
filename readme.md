@@ -21,7 +21,15 @@
 - [x] créer une page pour y mettre des liens vers d'autres sites sur le même thème
 - [x] rendre les déchets et les solutions uniques [📝](https://stackoverflow.com/questions/14622143/adding-unique-true-for-add-column-and-add-index-in-active-record)
 - [x] ajouter une page contact
-- [ ] ajouter au serveur
+
+- [x] *(touver un dns)*
+  - heroku domains:add zerodechet.bylaurie.fr
+
+- [x] *(accorder le dns au CNAME...)*
+
+- [x] *(attendre)*
+
+- [x] *( :open_hands:  "chill"  :open_hands: )*
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 
