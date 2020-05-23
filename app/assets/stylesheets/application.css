@@ -30,6 +30,11 @@ h1, .subtitle, .navigation {
   margin: 3%;
 }
 
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 table {
   width: 100%;
   empty-cells: show;
