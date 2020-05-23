@@ -34,6 +34,7 @@ table {
   width: 100%;
   empty-cells: show;
   border-collapse: collapse;
+  margin: 0;
 }
 
 td, th {
@@ -43,3 +44,7 @@ td, th {
   min-width: 170px;
 }
 
+.new-waste {
+  margin-top: 1%;
+  margin-bottom: 10%; 
+}

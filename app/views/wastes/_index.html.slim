@@ -6,6 +6,9 @@
       = render partial: 'solutions/index', locals: {waste: waste}
       li= render partial: 'solutions/new', locals: {waste: waste}
 
-    th= link_to "donner mon avis", waste_path(waste.id)
+    - if Comment.where(waste_id: waste.id).count == 0
+      th= link_to "laisser le premier avis😝", waste_path(waste.id)
+    - else
+      th= link_to "donner mon avis", waste_path(waste.id)
   br
 
