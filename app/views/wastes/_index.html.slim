@@ -1,14 +1,13 @@
-- Waste.where(category_id: category.id).each do |waste|
+- category.wastes.each do |waste|
   tr
     td= waste.name
 
     td
-      = render partial: 'solutions/index', locals: {waste: waste}
-      li= render partial: 'solutions/new', locals: {waste: waste}
+      = render "solutions/index", waste: waste
+      li= render "solutions/new", waste: waste
 
-    - if Comment.where(waste_id: waste.id).count == 0
-      th= link_to "laisser le premier avis😝", waste_path(waste.id)
+    - if waste.comments.none?
+      th= link_to "laisser le premier avis😝", waste
     - else
-      th= link_to "donner mon avis", waste_path(waste.id)
+      th= link_to "donner mon avis", waste
   br
-

@@ -46,5 +46,13 @@ td, th {
 
 .new-waste {
   margin-top: 1%;
-  margin-bottom: 10%; 
+  margin-bottom: 10%;
+}
+
+.inline {
+  display: inline;
+}
+
+.w-50-percent {
+  width: 50%;
 }
