@@ -62,3 +62,18 @@ td, th {
 .w-50-percent {
   width: 50%;
 }
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.article {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 45px;
+  width-max: 70%;
+}
