@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :solutions, only: [:create]
   resources :comments, only: [:create]
   resources :messages, only: [:index, :create]
+  resources :articles, only: [:index, :create]
 
   root to: "categories#index"
 
