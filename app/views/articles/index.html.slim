@@ -1,64 +1,10 @@
+br
+= render "articles/new"
+br
+
 .articles
-  .article
-    .content
-      = "content"
-      = "content"
-    .author
-      = "author"
-
-  .article
-    .content
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-    .author
-      = "author"
-
-  .article
-    .content
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-    .author
-      = "author"
-
-  .article
-    .content
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-    .author
-      = "author"
-
-  .article
-    .content
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-      = "content"
-    .author
-      = "author"
+  - @articles.each do |article|
+    .article
+      = article.content
+      br
+      = article.author

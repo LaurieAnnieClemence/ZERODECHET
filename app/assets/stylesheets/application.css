@@ -76,4 +76,13 @@ td, th {
   padding: 20px;
   border-radius: 45px;
   width-max: 70%;
+  text-align: center;
+}
+
+textarea {
+  width: 70%;
+  height: 10em;
+  border: 2px solid black;
+  border-radius: 45px;
+  padding: 20px;
 }
