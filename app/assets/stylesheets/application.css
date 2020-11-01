@@ -68,6 +68,7 @@ td, th {
   flex-wrap: wrap;
   width: 100%;
   margin-top: 5%;
+  justify-content: space-around;
 }
 
 .article {
