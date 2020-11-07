@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>ZERO DECHET/strong>
+  <strong>ZERO DECHET</strong>
   </br><i>for try living without waste</i>
 </p>
 
