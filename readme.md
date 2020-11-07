@@ -1,39 +1,20 @@
-### *Zero Déchet*
+<p align="center">
+  <strong>ZERO DECHET/strong>
+  </br><i>for try living without waste</i>
+</p>
 
-- [x] créer une app (`rails new -d postgresql ZERODECHET`)
-- [x] *(l'enregistrer sur git)*
-  - git init
-  - git remote add origin https://github.com/LaurieAnnieClemence/ZERODECHET.git
-  - git add .
-  - git commit -m "rails init"
-  - git push -u origin master 
+-----------------------------------------------
+----------------------------------------------
 
-- [x] *(l'enregistrer sur heroku)*
-  - heroku apps:create zerodechet
-  - heroku git:clone -a zerodechet
-  - git push heroku master
+- liste tes déchets et trouve des solutions pour toi ou pour les autres
+- publie des articles sur le zéro déchet
+- partage tes solutions pour éviter de vider ta poubelle trop souvent ;)
 
-- [x] créer une base de donnée (`rails db:create`)
-- [x] créer LA base de donnée [📝](https://guides.rubyonrails.org/getting_started.html#creating-articles)
-- [x] migrer la base de données sur heroku (`heroku run rails db:migrate`)
-- [x] créer la page d'accueil
-- [x] créer une page par déchet pour donner son avis
-- [x] créer une page pour y mettre des liens vers d'autres sites sur le même thème
-- [x] rendre les déchets et les solutions uniques [📝](https://stackoverflow.com/questions/14622143/adding-unique-true-for-add-column-and-add-index-in-active-record)
-- [x] ajouter une page contact
 
-- [x] *(touver un dns)*
-  - heroku domains:add zerodechet.bylaurie.fr
+```
+- list waste and find solution for you or other person
+- publish articles on zero waste
+- share your solutions for avoid taking out trash every week ;)
+```
 
-- [x] *(accorder le dns au CNAME...)*
-
-- [x] *(attendre)*
-
-- [x] *( :open_hands:  "chill"  :open_hands: )*
----------------------------------------------------------------------------
----------------------------------------------------------------------------
-
-## REPORTÉES
-
-- [ ] utiliser ajax
-
+[http://zerodechet.bylaurie.fr](http://zerodechet.bylaurie.fr)
